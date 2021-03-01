@@ -50,9 +50,7 @@ $title = "GITE.COM -ACCUEIL-";
 
     ?>
     <h1 class="text-center text-info">TOUS LES GITES DISPONIBLES</h1>
-        <h2 class="text-center text-danger">Les gites réservé ne sont pas apparant</h2>
-        <h3>Ajout de valeur depuis la branche formulaire</h3>
-        <h4>TETS DE LA BRANCHE MICAHEL</h4>
+      
 
     <?php
     $gites->randomGites();
