@@ -49,7 +49,8 @@ $title = "GITE.COM -ACCUEIL-";
     $gites = new GitesModel();
 
     ?>
-    <h1 class="text-center text-info">GITES DISPONIBLE</h1>
+    <h1 class="text-center text-info">TOUS LES GITES DISPONIBLES</h1>
+        <h2 class="text-center text-danger">Les gites réservé ne sont pas apparant</h2>
 
     <?php
     $gites->randomGites();
